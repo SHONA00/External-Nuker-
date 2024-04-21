@@ -141,7 +141,7 @@ async def on_ready():
                         clearer()
                         guild_info()
                         if sys.platform.startswith("win"):
-                            ctypes.windll.kernel32.SetConsoleTitleW(f"Yimmy: Banning...")
+                            ctypes.windll.kernel32.SetConsoleTitleW(f"Shona: Banning...")
                         else:
                             pass
                         counting = 0
