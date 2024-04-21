@@ -191,7 +191,7 @@ async def on_ready():
                             pass
                         clearer()
                         guild_info()
-                        print(f"[{Fore.RED}Yimmy{Fore.RESET}]Creating..." +Fore.RESET)
+                        print(f"[{Fore.RED}Shona{Fore.RESET}]Creating..." +Fore.RESET)
                         for y in range(250):
                             threading.Thread(target=cchan,args=[info['channel'],guild.id,"text",channels]).start()
                     elif number == "4":
