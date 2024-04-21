@@ -7,7 +7,7 @@ members = open('members.txt')
 
 
 if sys.platform.startswith("win"):
-    ctypes.windll.kernel32.SetConsoleTitleW("External Nuker | Made by Yum x Yimmy")
+    ctypes.windll.kernel32.SetConsoleTitleW("External Nuker | Made by SHONA")
 else:
     pass
 
@@ -223,6 +223,6 @@ try:
 except Exception as e:
     print(Fore.RED + "Error occured attempting to log in to token... Error will be shown below"+ Fore.RESET)
     time.sleep(1)
-    print(Fore.WHITE + f"{e}\nPS: this will close in 5 seconds..." + Fore.RESET)
+    print(Fore.WHITE + f"{e}\nPS: this will close in 5 seconds...Go to Shona" + Fore.RESET)
     time.sleep(5)
     os.system("exit")
